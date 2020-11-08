@@ -1,13 +1,13 @@
 import React from "react";
 import "../styles/Content.css";
 
-// Component for header
-function Header() {
+// Component for content
+function Content() {
     return (
-        <header className="content">
-            <h1>Content goes here.</h1>
-        </header>
+        <content className="content">
+            <h2>Current phases for address input</h2>
+        </content>
     );
 }
 
-export default Header;
+export default Content;
